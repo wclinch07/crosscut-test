@@ -3,10 +3,15 @@
   "version": "1.0.0",
   "description": "Intentionally broken app for testing Crosscut",
   "main": "server.js",
+  "engines": {
+    "node": "999.0.0"
+  },
   "scripts": {
     "start": "node server.js"
   },
   "dependencies": {
-    "express": "^4.18.2"
+    "express": "^4.18.2",
+    "this-package-does-not-exist-at-all-12345xyz": "^1.0.0",
+    "another-fake-broken-dep-99999": "^2.0.0"
   }
 }
