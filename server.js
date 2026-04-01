@@ -5,6 +5,8 @@ const anotherBrokenModule = require('another-fake-broken-dep-99999');
 
 const app = express();
 
+undefinedVariable.crash();
+
 // TypeError: cannot read properties of undefined
 const config = undefined;
 const port = config.port;
