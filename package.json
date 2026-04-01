@@ -1,0 +1,12 @@
+{
+  "name": "crosscut-test",
+  "version": "1.0.0",
+  "description": "Intentionally broken app for testing Crosscut",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "dependencies": {
+    "express": "^4.18.2"
+  }
+}
